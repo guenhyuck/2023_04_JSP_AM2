@@ -17,6 +17,7 @@ import com.KoreaIT.java.jam.util.DBUtil;
 
 @WebServlet("/article/list")
 public class ArticleListServlet extends HttpServlet {
+	private static final long serialVersionUID = -5065445692231294049L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

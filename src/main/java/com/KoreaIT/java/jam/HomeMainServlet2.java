@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/printDan")
 public class HomeMainServlet2 extends HttpServlet {
+	private static final long serialVersionUID = -5065445692231294049L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
